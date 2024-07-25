@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css">
+  <title>Desafio - Landing Page</title>
+</head>
+<body>
+
+  <!-- Pagina Principal -->
+  <section id="main">
+    <h1>Tradição em projetos de arquitetura</h1>
+    <p>Arquitetura residencial e comercial. </p>
+  </section>
+  
+  <!-- Menu Página Principal -->
+  <section id="menu">
+    <div class="item transform1">
+      <h2>850<br>
+        <span>empreendimentos construídos</span>
+      </h2>
+    </div>
+    <div class="item transform2">
+      <h2>40<br>
+        <span>anos de mercado e experiência</span>
+      </h2>
+    </div>
+    <div class="item transform3">
+      <h2>2,000,000<br>
+        <span>m² em projetos construídos</span>
+      </h2>
+    </div>
+  </section>
+  
+  <!-- Sobre a Empresa -->
+  <section id="about">
+    <article id="article-about">
+      <div id="article-text">
+        <h3>Arquitetos com História e Experiência.</h3>
+        
+        <span>
+          Nós realizamos desde 2002 projetos e gerenciamento de obras. Com mais de 800 projetos e 2.000.000 de m² construídos, tendo como principal proposta transformar em realidade os sonhos de seus clientes, criando projetos personalizados, unindo a tradição e a modernidade em nossos projetos.
+        </span>
+      </div>
+      
+      <img src="img/layout-escritorio.svg" alt="Foto de escritório, apresentando seu layout com dois andares">
+    </article>
+  </section>
+  
+  <!-- Contato - Formulário -->
+  <section id="contact">
+    <h3>Conheça mais sobre nossos serviços:</h3>
+    
+    <form action="https://api.sheetmonkey.io/form/uPcLBFRNsg6ycBsKLbgdLM" method="POST" target="_blank">
+      <div id="contact-form">
+        <input type="text" placeholder="Nome" id="name" name="Name" required>
+        <input type="email" placeholder="Email" id="email" name="Email" required>
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+        <button type="submit" id="button">Fale Conosco</button>
+      </div>
+    </form>
+  </section>
+  
+  <!-- Script -->
+  <script src="index.js"></script>
+</body>
+</html>
+
