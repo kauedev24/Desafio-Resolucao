@@ -10,3 +10,4 @@ Link da planilha de registro de informação: https://docs.google.com/spreadshee
 * FIGMA
 * JavaScript >> Function / DOM 
 
+![Site Completo](img/print.jpeg)
